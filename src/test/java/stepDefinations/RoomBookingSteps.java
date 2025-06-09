@@ -14,7 +14,7 @@ public class RoomBookingSteps {
 
 @Given("I set the Post endpoint {string}")
 public void i_set_the_post_endpoint(String url) {
-    // Write code here that turns the phrase above into concrete actions
+    
 	endpoint = url;
 }
 
@@ -35,7 +35,7 @@ public void i_send_a_post_http_request() {
 
 @Then("the response status code should be {int}")
 public void the_response_status_code_should_be(Integer statusCode) {
-    // Write code here that turns the phrase above into concrete actions
+    
 	 response.then().statusCode(statusCode);
 }
 
